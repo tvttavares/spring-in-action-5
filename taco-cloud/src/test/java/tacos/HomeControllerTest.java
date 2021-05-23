@@ -12,21 +12,18 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 @RunWith(SpringRunner.class)
-@WebMvcTest(HomeController.class)   // <1>
+@WebMvcTest
 public class HomeControllerTest {
 
     @Autowired
-    private MockMvc mockMvc;   // <2>
+    private MockMvc mockMvc;
 
     @Test
     public void testHomePage() throws Exception {
-        mockMvc.perform(get("/"))    // <3>
-
-                .andExpect(status().isOk())  // <4>
-
-                .andExpect(view().name("home"))  // <5>
-
-                .andExpect(content().string(           // <6>
+        mockMvc.perform(get("/"))
+                .andExpect(status().isOk())
+                .andExpect(view().name("home"))
+                .andExpect(content().string(
                         containsString("Welcome to...")));
     }
 

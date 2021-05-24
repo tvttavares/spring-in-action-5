@@ -2,10 +2,10 @@ package tacos;
 
 import lombok.Data;
 import org.hibernate.validator.constraints.CreditCardNumber;
+import org.hibernate.validator.constraints.NotBlank;
 
 import javax.persistence.*;
 import javax.validation.constraints.Digits;
-import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -25,7 +25,9 @@ public class Order implements Serializable {
 
     private Date placedAt;
 
-    //end::allButDetailProperties[]
+    @ManyToOne
+    private User user;
+
     @NotBlank(message = "Delivery name is required")
     private String deliveryName;
 

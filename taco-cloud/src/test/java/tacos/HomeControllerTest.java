@@ -11,6 +11,7 @@ import tacos.data.IngredientRepository;
 import tacos.data.OrderRepository;
 import tacos.data.TacoRepository;
 import tacos.data.UserRepository;
+import tacos.web.OrderProps;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -42,9 +43,15 @@ public class HomeControllerTest {
     @MockBean
     private PasswordEncoder passwordEncoder;
 
+    @MockBean
+    private DiscountCodeProps discountProps;
+
+    @MockBean
+    private OrderProps orderProps;
+
     @Test
     public void testHomePage() throws Exception {
-        mockMvc.perform(get("/abc"))
+        mockMvc.perform(get("/"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("home"))
                 .andExpect(content().string(

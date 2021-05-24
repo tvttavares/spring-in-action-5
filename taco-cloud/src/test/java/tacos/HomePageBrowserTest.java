@@ -17,9 +17,9 @@ import java.util.concurrent.TimeUnit;
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 public class HomePageBrowserTest {
 
+    private static HtmlUnitDriver browser;
     @LocalServerPort
     private int port;
-    private static HtmlUnitDriver browser;
 
     @BeforeClass
     public static void setup() {

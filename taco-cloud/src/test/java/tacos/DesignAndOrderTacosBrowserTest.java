@@ -26,12 +26,10 @@ import static org.junit.Assert.assertTrue;
 public class DesignAndOrderTacosBrowserTest {
 
     private static HtmlUnitDriver browser;
-
-    @LocalServerPort
-    private int port;
-
     @Autowired
     TestRestTemplate rest;
+    @LocalServerPort
+    private int port;
 
     @BeforeClass
     public static void setup() {
@@ -126,8 +124,8 @@ public class DesignAndOrderTacosBrowserTest {
 
 
     private void doLogin(String username, String password) {
-        browser.findElementByCssSelector("input#username").sendKeys(username);
-        browser.findElementByCssSelector("input#password").sendKeys(password);
+        browser.findElementByName("username").sendKeys(username);
+        browser.findElementByName("password").sendKeys(password);
         browser.findElementByCssSelector("form#loginForm").submit();
     }
 

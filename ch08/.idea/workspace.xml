@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0bdc3c19-a0bb-485f-b9e9-a782fe223832" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/DesignTacoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/IngredientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/IngredientResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/IngredientResourceAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/OrderApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/RecentTacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/SpringDataRestConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/TacoResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/TacoResourceAssembler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/java/tacos/web/api/TacoResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-api/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/IngredientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/OrderRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/TacoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-data/src/main/java/tacos/data/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/replay_pid3910.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/Taco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-domain/src/main/java/tacos/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/Taco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/kitchen/KitchenUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/kitchen/OrderReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/kitchen/OrderReceiverController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/kitchen/TacoKitchenApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/kitchen/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/kitchen/messaging/jms/JmsOrderReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/kitchen/messaging/jms/MessagingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/kitchen/messaging/jms/listener/OrderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/kitchen/messaging/kafka/listener/OrderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/kitchen/messaging/rabbit/MessagingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/kitchen/messaging/rabbit/RabbitOrderReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/java/tacos/kitchen/messaging/rabbit/listener/OrderListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/resources/templates/noOrder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-kitchen/src/main/resources/templates/receiveOrder.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-jms/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-jms/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-jms/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-jms/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-jms/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-jms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-jms/src/main/java/tacos/messaging/JmsOrderMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-jms/src/main/java/tacos/messaging/MessagingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-jms/src/main/java/tacos/messaging/OrderMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-jms/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-kafka/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-kafka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-kafka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-kafka/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-kafka/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-kafka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-kafka/src/main/java/tacos/messaging/KafkaOrderMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-kafka/src/main/java/tacos/messaging/OrderMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-kafka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-rabbitmq/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-rabbitmq/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-rabbitmq/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-rabbitmq/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-rabbitmq/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-rabbitmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-rabbitmq/src/main/java/tacos/messaging/MessagingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-rabbitmq/src/main/java/tacos/messaging/OrderMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-rabbitmq/src/main/java/tacos/messaging/RabbitOrderMessagingService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-messaging-rabbitmq/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/java/tacos/restclient/RestExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/java/tacos/restclient/TacoCloudClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/images/TacoCloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/images/cloud-taco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/mustache/ingredients.mst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/mustache/recents.mst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/scripts/ingredients.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/scripts/recents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/design.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/discountList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/orderForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/orderList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-restclient/src/main/resources/templates/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/RegistrationForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-security/src/main/java/tacos/security/UserRepositoryUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/.angular-cli.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/e2e/app.e2e-spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/e2e/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/e2e/tsconfig.e2e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/protractor.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/api/ApiService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/auth.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/big-button/bigbutton.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/big-button/bigbutton.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/big-button/bigbutton.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cart/cart-item.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cart/cart-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cart/cart.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cart/cart.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cart/cart.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cloud-title/cloudtitle.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cloud-title/cloudtitle.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/cloud-title/cloudtitle.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/design/design.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/design/design.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/design/design.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/footer/cloud-taco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/footer/footer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/group-box/groupbox.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/group-box/groupbox.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/group-box/groupbox.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/header/cloud-taco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/header/header.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/home/home.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/little-button/littlebutton.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/little-button/littlebutton.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/little-button/littlebutton.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/locations/locations.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/locations/locations.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/locations/locations.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/login/login.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/NonWrapsPipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/RecentTacosService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/WrapsPipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/recents.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/recents.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/recents/recents.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/specials/specials.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/specials/specials.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/app/specials/specials.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/CloudBackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/Cloud_sm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/TacoCloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/TacoPhoto.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/down-triangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/assets/taco-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/routes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/src/typings.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-ui/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/DiscountCodeProps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/web/DiscountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/web/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/web/OrderProps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/java/tacos/web/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/images/TacoCloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/images/cloud-taco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/mustache/ingredients.mst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/mustache/recents.mst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/scripts/ingredients.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/scripts/recents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/static/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/design.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/discountList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/orderForm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/orderList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/main/resources/templates/registration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/test/java/tacos/DesignAndOrderTacosBrowserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/test/java/tacos/DesignTacoControllerBrowserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacocloud-web/src/test/java/tacos/HomeControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/replay_pid28663.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/src/main/java/tacos/DevelopmentConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/src/main/java/tacos/TacoCloudApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/src/test/java/tacos/DesignAndOrderTacosBrowserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/src/test/java/tacos/DesignTacoControllerBrowserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/src/test/java/tacos/HomeControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tacos/src/test/java/tacos/TacoCloudApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1t0edq2cjkLfsYT9I0DQviFhKrU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.TacoCloudApplication">
+    <configuration name="TacoCloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="taco-cloud" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tacos.TacoCloudApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TacoKitchenApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tacocloud-kitchen" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tacos.kitchen.TacoKitchenApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0bdc3c19-a0bb-485f-b9e9-a782fe223832" name="Default Changelist" comment="" />
+      <created>1621910524686</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621910524686</updated>
+      <workItem from="1621910525901" duration="568000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
